@@ -1,7 +1,7 @@
 {
     "name": "User Manager Demo with API support",
     "short_name": "User App",
-    "start_url": "./",
+    "start_url": "./users-info/",
     "scope": ".",
     "icons": [
         {
