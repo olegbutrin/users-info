@@ -9,6 +9,7 @@
 ## Инструментарий
 
 + React JS 16
++ Typescript
 + Redux
 + Thunk
 + Formik
