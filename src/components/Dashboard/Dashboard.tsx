@@ -27,6 +27,14 @@ const Dashboard = ({ sortIt }: IDashboardComponent) => {
       >
         по компании
       </button>
+      <a
+        className="SourceLink"
+        href="https://github.com/olegbutrin/users-info"
+        target={"_blank"}
+        rel={"noreferrer"}
+      >
+        [source code]
+      </a>
     </div>
   );
 };
