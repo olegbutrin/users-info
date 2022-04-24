@@ -1,0 +1,67 @@
+$blue: #4B51EF;
+$success: #52CF4F;
+$inactive: #AFAFAF;
+
+$gray: #BDBDBD;
+$midgray: #A3A3A3;
+$lightgray: #F3F3F3;
+
+$form-alert: #D91313;
+$form-border: #D8D8D8;
+$form-inactive: rgba(0, 0, 0, 0.3);
+
+$label-size: 8px;
+$label-height: 9px;
+
+$input-size: 10px;
+$input-height: 12px;
+
+$text-size: 12px;
+$text-height: 14px;
+
+$header-size: 14px;
+$header-height: 16px;
+
+$button-radius: 5px;
+$input-radius: 5px;
+$box-radius: 8px;
+
+h3 {
+  font-size: $header-size;
+  line-height: $header-height;
+  font-weight: 700;
+}
+
+.rowFlex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  width: 100%;
+}
+
+%button {
+  border-radius: $button-radius;
+  font-family: "Roboto", sans-serif;
+  border: 0;
+  padding: 5px 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn {
+  @extend %button;
+  background-color: $blue;
+}
+
+.btn-success {
+  @extend %button;
+  background-color: $success;
+}
+
+.btn-inactive {
+  @extend %button;
+  background-color: $inactive;
+}
+

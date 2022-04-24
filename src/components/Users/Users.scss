@@ -1,0 +1,55 @@
+@import "../../styles/default.scss";
+
+.Users {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Cards {
+  height: 100%;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: $lightgray;
+  border-radius: $box-radius;
+  box-sizing: border-box;
+}
+
+.Card > * {
+  margin-bottom: 10px;
+}
+
+.Card > *:last-child {
+  margin-bottom: 0;
+}
+
+.info {
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.label {
+  color: $midgray;
+  margin-right: 4px;
+}
+
+.link {
+  font-size: $text-size;
+  line-height: $text-height;
+  color: $blue;
+  cursor: pointer;
+}
+
+.count {
+  text-align: right;
+  width: 100%;
+}
